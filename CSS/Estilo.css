@@ -1,0 +1,135 @@
+body{
+    background-color: DarkOrchid;
+    font-family:cursive;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size:150%;
+}
+section{
+    background-color: white;
+    color: black;
+    width:80%;
+    display: block;
+    border-bottom: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+h2{
+    font-size: 60%;
+    text-align:center;
+    color:white;
+}
+h3{
+    font-size: 100%;
+    text-align:center;
+    color:white;
+}
+.IMGPrinc{
+    border-radius: 75%;
+    width: 30%;
+    height: 30%;
+    border: 3px solid white;
+    font-size: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.linha-vertical{
+    border-left: thick solid white;
+    height:300%;
+    left: 1%;
+    position: absolute;
+    writing-mode: vertical-lr; 
+    color: Magenta;
+    
+}
+.linha-vertical-2{
+    border-left: thick solid rgb(238, 236, 236);
+    height:300%;
+    right: 1%;
+    position: absolute;
+    writing-mode: vertical-rl; 
+    color:Magenta;
+}
+.audio{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width:60%;
+    display: block;
+    border-bottom: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.IMG2{
+    border-radius: 2%;
+    width: 40%;
+    height: 30%;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+
+
+}
+nav{
+    background-color: gold;
+    width: 10%;
+    height: 10%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+ul{
+    list-style: none;
+}
+
+.img1{
+    width: 40%;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+nav{
+    background-color: rgb(243, 243, 243);
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    transition: all .5s;
+}
+input[type="checkbox"]:checked ~ nav{
+ transform: translate(350px);
+}
+ul{
+    background-color: DarkOrchid;
+    top: 30%;
+    position: absolute;
+    width: 60%;
+    left: -15%;
+
+}
+a{
+    display: block;
+    padding: 10%;
+    color: whitesmoke;
+}
+a:hover{
+    background-color: rgb(247, 0, 255);
+    color: DarkOrchid;
+}
+label{
+    padding: 2%;
+    width: 8%;
+    position: absolute;
+    z-index: 1;
+    transform: translate(2px);
+    
+}
+li{
+    font-size: 60%;
+}
